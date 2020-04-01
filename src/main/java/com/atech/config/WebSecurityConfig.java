@@ -47,7 +47,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 			}
 		}).userDetailsService(userDetailsService);
 		
-	}
+	}	
 
 	@Bean
 	public PasswordEncoder passwordEncoder() {
